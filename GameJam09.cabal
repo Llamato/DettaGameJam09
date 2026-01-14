@@ -77,3 +77,8 @@ executable GameJam09
 
     -- Base language which the package is written in.
     default-language: Haskell2010
+
+    -- Supposedly improves framerate
+    ghc-options:
+      -O2
+      -threaded
